@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SilkSerenity</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Styles */
+    body {
+      background-color: #f3d8cf;
+      color: #F2E6E2;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header Title */
+    .header-title {
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 4rem;
+      color: #734432;
+      margin: 20px 0 10px;
+    }
+
+    /* Navbar Styles */
+    .navbar {
+      background-color: #734432;
+      padding: 0.5rem 0;
+    }
+
+    .navbar-nav {
+      justify-content: center;
+      flex-grow: 1;
+    }
+
+    .navbar-nav .nav-link {
+      font-family: 'Playfair Display', serif;
+      color: #F2E6E2 !important;
+      font-size: 1rem;
+      font-weight: 500;
+      margin: 0 15px; /* Adds spacing between links */
+      padding: 0.5rem 1rem; /* Adds padding around links */
+    }
+
+    .navbar-nav .nav-link.active {
+      font-family: 'Playfair Display', serif;
+      font-weight: bold;
+      color: #F2E6E2;
+      border-radius: 3px;
+    }
+
+    .user-icon {
+      font-size: 1.5rem;
+      color: #F2E6E2;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Title -->
+  <header>
+    <div class="header-title">SilkSerenity</div>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
+        </ul>
+        <div class="dropdown">
+          <i class="user-icon bi bi-person-circle"></i>
+          <div class="dropdown-menu">
+            <a href="account.html" class="dropdown-item">
+              <i class="bi bi-gear"></i> Settings
+            </a>
+            <a href="index.html" class="dropdown-item">
+              <i class="bi bi-box-arrow-right"></i> Logout
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="services-section">
+    <!-- Service 1 -->
+    <div class="service-item">
+      <h2>1. Serenity Tinting</h2>
+      <p>₱ 500.00</p>
+      <img src="svg/services1.svg" alt="Serenity Tinting">
+      <p>
+        Serenity Tinting: Add a touch of natural tint to your own lashes to create a deeper, fuller-looking lash without makeup.
+        It is ideal for those who don’t like fussing with makeup and want to make a statement without effort.
+      </p>
+    </div>
+  
+    <!-- Service 2 -->
+    <div class="service-item">
+      <h2>2. Serenity Classic</h2>
+      <p>₱ 600.00</p>
+      <img src="svg/services2.svg" alt="Serenity Classic">
+      <p>
+        Serenity Classic: They create a beautifully natural look with our classic lashes. This style is a timeless, elegant look,
+        by adding one lash extension to each of your natural lashes and giving them just the right amount of fullness.
+      </p>
+    </div>
+  
+    <!-- Service 3 -->
+    <div class="service-item">
+      <h2>3. Serenity Hybrid</h2>
+      <p>₱ 800.00</p>
+      <img src="svg/services3.svg" alt="Serenity Hybrid">
+      <p>
+        Serenity Hybrid: The hybrid lashes offer a nice mixture of classic and volume techniques for a fuller-looking lash,
+        using a combination of individual and fan lashes. If you’re after a step up in classic lashes but with more depth and glamour
+        added to the mix, this style is for you.
+      </p>
+    </div>
+
+    <!-- Service 4 -->
+    <div class="service-item">
+        <h2>4. Serenity Volume</h2>
+        <p>₱ 1000.00</p>
+        <img src="svg/services4.svg" alt="Serenity Volume">
+        <p>
+            Serenity Volume : The ultra fine extension used in the volume lashes give it a gorgeous,
+            fluffy look. The result is a lush and full look that’s as big  and bold as you want it to be.
+        </p>
+    </div>
+
+    <!-- Service 5 -->
+    <div class="service-item">
+        <h2>5. Serenity Mega</h2>
+        <p>₱ 1200.00</p>
+        <img src="svg/services5.svg" alt="Serenity Mega">
+        <p>
+            Serenity Mega : The biggest in density and drama, Mega volume lashes.  
+            They offer immense volume and fullness with even more extensions per lash, 
+            giving you a high impact, glamorous effect that is perfect for  special occasions or if you’re just looking for a high volume,  
+            glamourous look.
+        </p>
+    </div>
+
+    <!-- Service 6 -->
+    <div class="service-item">
+        <h2>6. Serenity Removal</h2>
+        <p>₱ 200.00</p>
+        <img src="svg/services6.svg" alt="Serenity Removal">
+        <p>
+            Serenity Removal : It is a process of taking off artificial eyelashes, either extensions or false lashes, 
+            from the natural lash line. This is typically done to give the natural lashes a break, 
+            to change the style of the lashes, or to remove them due to irritation or damage.
+        </p>
+    </div>
+  </div>
+  
+    <!-- Reverse Footer Section -->
+    <footer class="footer-reverse">
+      <div class="footer-container-reverse">
+        <!-- Logo and Social Links -->
+        <div class="footer-logo-social-reverse">
+          <h2 class="footer-logo-reverse">SilkSerenity</h2>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="footer-links-reverse">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store Locator</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <!-- Subscription Form -->
+        <div class="footer-subscription-reverse text-start">
+          <p>Get the latest updates and receive exclusive offers when you subscribe!</p>
+          <form action="#" method="post" class="subscribe-form-reverse">
+            <input type="email" placeholder="Your email" required>
+            <button type="submit">></button>
+          </form>
+        </div>
+      </div>
+      <div class="social-icons-reverse text-center">
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-tiktok"></i></a>
+      </div>
+      <div class="footer-bottom-reverse">
+        <p>&copy; 2024, SilkSerenity</p>
+      </div>
+    </footer>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"> 
+</body>
+</html>
